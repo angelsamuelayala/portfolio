@@ -5,6 +5,7 @@ import About from './components/sections/About';
 import Skills from './components/sections/Skills';
 import Projects from './components/sections/Projects';
 import Contact from './components/sections/Contact';
+import samImg from './assets/img/sam.jpeg';
 
 function App() {
   return (
@@ -19,7 +20,7 @@ function App() {
           {/* Brand/Identity */}
           <a href="#hero" className="flex items-center gap-3 group">
             <div className="w-10 h-10 rounded-full overflow-hidden border border-white/20 group-hover:border-neon-blue transition-colors">
-              <img src={`${import.meta.env.BASE_URL}img/sam.jpeg`} alt="Profile" className="w-full h-full object-cover" />
+              <img src={samImg} alt="Profile" className="w-full h-full object-cover" />
             </div>
             <span className="text-white font-serif font-bold text-lg hidden sm:block">
               Angel Samuel Ayala Gemio
