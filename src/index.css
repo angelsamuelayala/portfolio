@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Outfit:wght@300;400;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-dark-bg: #050505;
+  --color-dark-surface: #111111;
+  --color-dark-card: rgba(15, 15, 15, 0.6);
+  --color-neon-blue: #00f3ff;
+  --color-neon-purple: #bd00ff;
+  --color-neon-pink: #ff0055;
+  
+  --font-sans: "Outfit", system-ui, sans-serif;
+  --font-serif: "Playfair Display", serif;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-dark-bg text-gray-200 antialiased selection:bg-neon-blue/30 selection:text-neon-blue;
+    overflow-x: hidden;
+  }
+}
+
+@layer utilities {
+  .glass {
+    @apply bg-dark-card backdrop-blur-xl border border-white/5 shadow-2xl;
+  }
+  
+  .glass-hover {
+    @apply hover:bg-white/5 hover:border-white/10 transition-all duration-300;
+  }
+
+  .text-gradient {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-neon-blue via-neon-purple to-neon-pink;
+  }
+
+  .bg-gradient-neon {
+    @apply bg-gradient-to-r from-neon-blue via-neon-purple to-neon-pink;
+  }
+  
+  .neon-glow {
+    text-shadow: 0 0 10px rgba(0, 243, 255, 0.5), 0 0 20px rgba(189, 0, 255, 0.5);
+  }
+
+  .star-bg {
+    background-image: radial-gradient(circle at 1px 1px, rgba(255, 255, 255, 0.05) 1px, transparent 0);
+    background-size: 40px 40px;
+  }
+}

@@ -1,0 +1,57 @@
+{
+    "profile": {
+        "name": "Angel Samuel Ayala Gemio",
+        "role": "Systems Engineer & Full Stack Developer",
+        "location": "Santa Cruz de la Sierra, Bolivia",
+        "specialties": [
+            "Full Stack Development",
+            "Computer Vision & AI",
+            "Database Design",
+            "Agile Methodologies"
+        ]
+    },
+    "projects": [
+        {
+            "id": "fotomaster",
+            "title": "Fotomaster",
+            "category": "AI & Computer Vision",
+            "description": "Servicio de procesamiento de imágenes especializado en el reconocimiento facial avanzado utilizando embeddings.",
+            "longDescription": "Implementación de servicios de backend para la generación y comparación de vectores faciales (embeddings). Desarrollado con un enfoque en alta disponibilidad y precisión técnica para la identificación de usuarios.",
+            "technologies": [
+                "C#",
+                ".NET 8.0",
+                "WinForms",
+                "MaterialSkin",
+                "Emgu.CV (OpenCV)",
+                "Dlib (ResNet)",
+                "Face Embeddings"
+            ],
+            "features": [
+                "Face Embeddings",
+                "Service Integration",
+                "High Precision"
+            ],
+            "status": "Stable"
+        },
+        {
+            "id": "wally-champions",
+            "title": "Wally Champions Bolivia",
+            "category": "Management Systems",
+            "description": "Sistema integral de gestión para complejos deportivos enfocado en la reserva y administración de canchas de Wally.",
+            "longDescription": "Proyecto gestionado bajo metodologías ágiles (Scrum) donde se aplicaron métricas de estimación basadas en Puntos de Función para garantizar la precisión en los tiempos de entrega y el control de calidad mediante el modelo McCall.",
+            "technologies": [
+                "PHP",
+                "MySQL",
+                "Scrum",
+                "Function Points",
+                "McCall Quality"
+            ],
+            "features": [
+                "Booking Engine",
+                "Project Metrics",
+                "Resource Management"
+            ],
+            "status": "Completed"
+        }
+    ]
+}
