@@ -19,7 +19,7 @@ function App() {
           {/* Brand/Identity */}
           <a href="#hero" className="flex items-center gap-3 group">
             <div className="w-10 h-10 rounded-full overflow-hidden border border-white/20 group-hover:border-neon-blue transition-colors">
-              <img src="/img/sam.jpeg" alt="Profile" className="w-full h-full object-cover" />
+              <img src="img/sam.jpeg" alt="Profile" className="w-full h-full object-cover" />
             </div>
             <span className="text-white font-serif font-bold text-lg hidden sm:block">
               Angel Samuel Ayala Gemio

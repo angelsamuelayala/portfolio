@@ -51,7 +51,7 @@ const About = () => {
           <div className="relative glass rounded-2xl p-4 border-white/10 overflow-hidden">
             <div className="aspect-[4/5] rounded-xl overflow-hidden relative">
               <img 
-                src="/img/sam.jpeg" 
+                src="img/sam.jpeg" 
                 alt="Angel Samuel Ayala Gemio" 
                 className="w-full h-full object-cover transition-all duration-700 scale-110 hover:scale-100"
               />
